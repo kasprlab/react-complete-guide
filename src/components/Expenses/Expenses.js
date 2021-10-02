@@ -4,7 +4,7 @@ import './Expenses.css';
 import ExpenseItem from './ExpenseItem';
 import ExpensesFilter from './ExpensesFilter';
 import Card from '../UI/Card';
-import ExpenseForm from '../NewExpense/ExpenseForm';
+//import ExpenseForm from '../NewExpense/ExpenseForm';
 
 function Expenses(props) {
   const [filteredYear, setFilteredYear] = useState('2020')
